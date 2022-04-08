@@ -1,15 +1,6 @@
-# App name
+# Script to Query and Calculate Total Articles per Category
 
-[brief description of the app]
+Zendesk's API's don't distinctly provide access to the total number of articles in each category of your Help Center. This script makes the necessary requets to traverse and gather the data needed to make this calculation.
 
-### The following information is displayed:
 
-* info1
-* info2
-* info3
-
-Please submit bug reports to [Insert Link](). Pull requests are welcome.
-
-### Screenshot(s):
-[put your screenshots down here.]
 # calculate-articles-per-category
