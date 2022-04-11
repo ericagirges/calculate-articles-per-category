@@ -1,6 +1,12 @@
 let client;
+
+// this object will store calculation for how many articles per section id
 const sortBySection = {};
+
+// this object will store section ids and the category id they belong to
 const sortByCategory = {};
+
+// this object will store the calculation for how many articles per category id
 const articlesPerCategory = {};
 
 $(function () {
@@ -15,7 +21,7 @@ function getAllArticles() {
     type: "GET",
     dataType: "json",
   };
-  // first we will get all articles currently in help center
+  // making request to get all articles
   client
     .request(settings)
     .then((data) => {
@@ -36,7 +42,7 @@ function getAllArticles() {
     });
 }
 
-// create object to map sections to categories
+// create object to map section ids to category id
 function matchSectionToCategory() {
   getAllArticles();
   let settings = {
