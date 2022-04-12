@@ -7,7 +7,7 @@ Zendesk's API's don't distinctly provide access to the total number of articles 
 
 # Getting Started
 
-This application was built using ZCLI. For development and to test locally you will need to have ZCLI installed. Please see the corresponding docs if needed. 
+This application was built using ZCLI. For development and to test locally you will need to have ZCLI installed. Please see the corresponding [docs](https://developer.zendesk.com/documentation/apps/app-developer-guide/zcli/) if needed. 
 
 **Install dependecies**
 
